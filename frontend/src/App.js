@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
-import './App.css'; // Add your styles here
+import './App.css';
 
 const App = () => {
   const [todos, setTodos] = useState([]);
@@ -15,7 +15,7 @@ const App = () => {
   const fetchTodos = async () => {
     try {
       const response = await axios.get('http://localhost:8080/todos');
-      console.log(response.data); // Log the response data
+      console.log(response.data);
       setTodos(response.data);
     } catch (error) {
       console.error('Error fetching todos:', error.message);
