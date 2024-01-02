@@ -1,3 +1,4 @@
-![Home Page](frontend\home.JPG)
+![Home Page](home.JPG)
 
-![Edit ](frontend\edit.JPG)
+
+![Edit ](edit.JPG)
