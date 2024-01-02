@@ -1,4 +1,4 @@
-![Home Page](home.JPG)
+![Home Page](./home.JPG)
 
 
-![Edit ](edit.JPG)
+![Edit ](./edit.JPG)
